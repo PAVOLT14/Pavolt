@@ -1,0 +1,5 @@
+export * from './faq'
+export * from './process'
+export * from './projects'
+export * from './services'
+export * from './testimonials'
