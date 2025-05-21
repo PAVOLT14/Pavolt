@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     '@primevue/nuxt-module',
     '@nuxt/image',
     '@nuxt/fonts',
+    '@nuxtjs/seo',
   ],
 
   components: [
