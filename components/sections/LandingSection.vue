@@ -33,42 +33,50 @@
         class="z-5 from-3% absolute h-full w-full bg-gradient-to-t from-white"
       />
       <div class="h-[280px] w-[280px] overflow-hidden rounded-md xl:mt-16 2xl:h-[320px] 2xl:w-[320px]">
-        <img
+        <NuxtImg
+          class="h-full w-full object-cover"
           width="280"
           height="280"
           src="/assets/images/hero-1.webp"
-          alt="Landig Image"
-          class="h-full w-full object-cover"
-        >
+          alt="Elektryk naprawia żarówkę"
+          format="webp"
+          loading="lazy"
+        />
       </div>
       <div class="h-[280px] w-[280px] overflow-hidden rounded-md 2xl:h-[320px] 2xl:w-[320px]">
-        <img
+        <NuxtImg
+          class="h-full w-full object-cover"
           width="280"
           height="280"
           src="/assets/images/hero-2.webp"
-          alt="Landig Image"
-          class="h-full w-full object-cover"
-        >
+          alt="Elektryk podłączający przewód"
+          format="webp"
+          loading="lazy"
+        />
       </div>
       <div class="h-[280px] w-[280px] overflow-hidden rounded-md 2xl:h-[320px] 2xl:w-[320px]">
-        <img
+        <NuxtImg
+          class="h-full w-full object-cover"
           width="280"
           height="280"
           src="/assets/images/hero-3.webp"
-          alt="Landig Image"
-          class="h-full w-full object-cover"
-        >
+          alt="Elektryk tnący przewód"
+          format="webp"
+          loading="lazy"
+        />
       </div>
       <div
         class="h-[280px] w-[280px] overflow-hidden rounded-md xl:-translate-y-16 2xl:h-[320px] 2xl:w-[320px]"
       >
-        <img
+        <NuxtImg
+          class="h-full w-full object-cover"
           width="280"
           height="280"
           src="/assets/images/hero-4.webp"
-          alt="Landig Image"
-          class="h-full w-full object-cover"
-        >
+          alt="Elektryk tnący przewód"
+          format="webp"
+          loading="lazy"
+        />
       </div>
     </div>
   </main>

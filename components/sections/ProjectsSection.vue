@@ -52,12 +52,16 @@ const toggleImages = () => {
           :show-indicators="false"
         >
           <template #item="{ data }: {data: string}">
-            <img
+            <NuxtImg
               class="mx-2 w-full h-[500px] object-cover"
+              width="500"
+              height="500"
               :src="data"
-              alt="Project image"
+              alt="Zdjęcie wykonanej instalacji"
+              format="webp"
+              loading="lazy"
               preview
-            >
+            />
           </template>
         </Carousel>
       </div>

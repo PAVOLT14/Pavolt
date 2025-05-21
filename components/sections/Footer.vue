@@ -2,12 +2,14 @@
   <footer class="flex-col gap-8 lg:flex-row mx-auto container pt-12 pb-10 px-6 flex justify-between border-slate-100 border-t">
     <div class="flex flex-col justify-between gap-6">
       <div class="flex flex-col gap-4">
-        <img
+        <NuxtImg
           src="/assets/logo.svg"
           width="108"
           height="32"
-          alt="Logo"
-        >
+          alt="Company logo"
+          itemprop="logo"
+          loading="lazy"
+        />
         <p class="text-sm text-slate-500">
           © pavolt.com - All rights reserved.
         </p>
