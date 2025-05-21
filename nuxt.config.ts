@@ -22,7 +22,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       title:
-        'Elektryk Tarnów | Pavolt profesjonalne usługi elektryczne',
+        'Elektryk Tarnów | Pavolt usługi elektryczne',
       htmlAttrs: {
         lang: 'pl',
       },
@@ -32,7 +32,7 @@ export default defineNuxtConfig({
         {
           name: 'description',
           content:
-            'Elektryk Tarnów: instalacje elektryczne, oświetlenia zewnętrzne, domy z bali i domy murowane.',
+            'Elektryk Tarnów: usługi elektryczne, instalacje elektryczne, oświetlenia zewnętrzne, domy z bali i domy murowane.',
         },
         {
           name: 'keywords',

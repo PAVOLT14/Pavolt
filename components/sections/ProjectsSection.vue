@@ -22,7 +22,7 @@ const toggleImages = () => {
   <section id="projects" class="flex flex-col gap-16 mx-auto container px-6">
     <div class="flex flex-col gap-4 items-center">
       <h2 class="text-center font-bold text-slate-800 text-3xl lg:text-4xl">
-        Wykonane realizacje
+        Wykonane instalacje
       </h2>
       <p class="text-slate-500 text-lg lg:text-xl text-center max-w-3xl">
         Zobacz jak realizujemy nasze projekty na najwyższym poziomie, przykłady naszej fachowości i zaangażowania w każdym detalu.
