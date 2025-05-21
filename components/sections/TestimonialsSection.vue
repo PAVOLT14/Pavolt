@@ -11,7 +11,7 @@ import { TESTIMONIALS } from '~/data'
       <TestimonialCard
         v-for="(testimonial, index) in TESTIMONIALS"
         :key="index"
-        :image="testimonial.image"
+        :color="testimonial.color"
         :name="testimonial.name"
         :role="testimonial.role"
         :review="testimonial.review"
