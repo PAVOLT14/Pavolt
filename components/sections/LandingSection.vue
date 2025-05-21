@@ -6,10 +6,10 @@
   <main class="container mx-auto px-6 lg:flex-1 flex mt-10 lg:mt-20 relative gap-10 flex-col lg:flex-row mb-40">
     <div class="lg:max-w-3xl flex-1 flex flex-col">
       <h1 class="text-slate-800 text-5xl lg:text-7xl font-bold lg:leading-20 text-center md:text-left">
-        Bezpieczne instalacje dla Twojego domu
+        Bezpieczne instalacje elektryczne dla Twojego domu
       </h1>
       <h2 class="text-slate-500 text-lg lg:text-xl mt-6 text-center md:text-left">
-        Nowoczesne rozwiązania elektryczne, profesjonalne podejście i gwarancja spokoju w każdym zakamarku Twojej przestrzeni.
+        Nowoczesne usługi elektryczne, profesjonalne podejście i gwarancja spokoju w każdym zakamarku Twojej przestrzeni.
       </h2>
 
       <NuxtLink
