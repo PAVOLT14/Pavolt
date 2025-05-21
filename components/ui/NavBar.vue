@@ -9,17 +9,22 @@ const toggleMenu = () => {
 </script>
 
 <template>
-  <header class="container mx-auto flex justify-between items-center py-6 px-6">
-    <img
+  <header class="container mx-auto flex justify-between items-center py-6 px-6" @keydown.escape="isMenuOpen = false">
+    <NuxtImg
       src="/assets/logo.svg"
       width="108"
       height="32"
-      alt="Logo"
-    >
+      alt="Company logo"
+      preload
+      itemprop="logo"
+    />
 
     <!-- Hamburger Button for Mobile -->
     <button
       class="lg:hidden z-50 cursor-pointer"
+      :aria-expanded="isMenuOpen"
+      aria-controls="mobile-menu"
+      aria-label="Toggle navigation menu"
       @click="toggleMenu"
     >
       <Icon
@@ -30,7 +35,7 @@ const toggleMenu = () => {
     </button>
 
     <!-- Desktop Navigation -->
-    <nav class="hidden lg:block">
+    <nav class="hidden lg:block" role="navigation">
       <ul class="flex gap-x-6 items-center text-slate-700">
         <li>
           <NuxtLink :to="{ path: '/', hash: '#projects' }">
@@ -66,13 +71,14 @@ const toggleMenu = () => {
       ]"
     >
       <div class="container mx-auto pt-6 px-4 flex flex-col gap-8">
-        <img
+        <NuxtImg
           src="/assets/logo.svg"
           width="108"
           height="32"
-          alt="Logo"
-        >
-        <nav>
+          alt="Company logo"
+          itemprop="logo"
+        />
+        <nav role="navigation">
           <ul class="flex flex-col gap-y-6 text-slate-700 items-center">
             <li>
               <NuxtLink

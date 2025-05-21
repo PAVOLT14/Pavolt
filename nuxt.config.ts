@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     'nuxt-security',
     '@primevue/nuxt-module',
+    '@nuxt/image',
   ],
 
   components: [
@@ -90,6 +91,7 @@ export default defineNuxtConfig({
   // - icon for "Magazyny energi"
   // - images for new sections
   // - Posthog
+  // - use nuxt image
 
   eslint: {
     config: {
@@ -98,6 +100,11 @@ export default defineNuxtConfig({
         sortConfigKeys: true,
       },
     },
+  },
+
+  image: {
+    domains: ['avatars0.githubusercontent.com'],
+    format: ['webp'],
   },
 
   primevue: {
