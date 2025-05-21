@@ -61,6 +61,11 @@ export default defineNuxtConfig({
 
       link: [
         { rel: 'canonical', href: 'https://elektryktarnow.com' },
+        { rel: 'icon', type: 'image/x-icon', href: '/assets/favicon/favicon.ico' },
+        { rel: 'apple-touch-icon', sizes: '180x180', href: '/assets/favicon/apple-touch-icon.png' },
+        { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/assets/favicon/favicon-32x32.png' },
+        { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
+        { rel: 'manifest', href: '/assets/favicon/site.webmanifest' },
       ],
     },
   },
@@ -84,7 +89,6 @@ export default defineNuxtConfig({
   // TODO UI:
   // - icon for "Magazyny energi"
   // - images for new sections
-  // - SEO: favicons
   // - Posthog
 
   eslint: {
