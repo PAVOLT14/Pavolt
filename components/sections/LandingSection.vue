@@ -13,7 +13,7 @@
       </h2>
 
       <NuxtLink
-        class="mt-8 px-5 py-3 bg-primary text-white font-medium rounded-md sm:self-center md:self-start"
+        class="mt-8 px-5 py-3 bg-primary text-white font-medium rounded-md self-center md:self-start"
         :to="{ path: '/', hash: '#services' }"
       >
         Sprawdź ofertę
