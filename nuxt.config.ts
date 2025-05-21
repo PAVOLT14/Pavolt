@@ -82,7 +82,6 @@ export default defineNuxtConfig({
   },
 
   // TODO UI:
-  // - avatars as name like "A" and some generic bg color
   // - icon for "Magazyny energi"
   // - images for new sections
   // - SEO: favicons
