@@ -79,6 +79,13 @@ export default defineNuxtConfig({
     },
   },
 
+  runtimeConfig: {
+    public: {
+      posthogPublicKey: 'phc_S0Y57Qf5Mqb2ktqY5ZuIB7h5DyBG6o6vyJ3AvZ3NhKI',
+      posthogHost: 'https://eu.i.posthog.com',
+    },
+  },
+
   compatibilityDate: '2024-11-01',
 
   vite: {
