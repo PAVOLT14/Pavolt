@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     'nuxt-security',
     '@primevue/nuxt-module',
     '@nuxt/image',
+    '@nuxt/fonts',
   ],
 
   components: [
@@ -107,6 +108,13 @@ export default defineNuxtConfig({
         sortConfigKeys: true,
       },
     },
+  },
+
+  fonts: {
+    families: [
+      { name: 'Inter', provider: 'google', weights: ['300', '400', '500', '600', '700'] },
+      { name: 'Nothing You Could Do', provider: 'google', weights: ['400'] },
+    ],
   },
 
   image: {

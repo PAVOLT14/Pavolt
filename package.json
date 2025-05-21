@@ -13,6 +13,7 @@
     "typecheck": "nuxi typecheck"
   },
   "dependencies": {
+    "@nuxt/fonts": "^0.11.4",
     "@nuxt/image": "1.9.0",
     "@primeuix/themes": "^1.0.3",
     "@tailwindcss/vite": "^4.1.4",
@@ -36,5 +37,9 @@
     "typescript": "^5.8.3",
     "vue-tsc": "^2.2.8"
   },
-  "pnpm": { "overrides": { "ipx": "^3.0.0" } }
+  "pnpm": {
+    "overrides": {
+      "ipx": "^3.0.0"
+    }
+  }
 }

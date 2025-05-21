@@ -21,10 +21,12 @@
     </div>
 
     <div class="xl:hidden md:size-[520px] lg:size-[400px] mx-auto">
-      <img
+      <NuxtImg
         src="/assets/images/illustration.svg"
         alt="Landig Image"
-      >
+        loading="eager"
+        sizes="500px lg:400px"
+      />
     </div>
 
     <!-- eslint-disable-next-line style/max-len -->
