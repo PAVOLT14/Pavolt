@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="xl:h-screen flex flex-col overflow-hidden">
+    <div class="flex flex-col overflow-hidden">
       <NavBar />
       <LandingSection />
     </div>
-    <div class="flex flex-col gap-40">
+    <div class="flex flex-col gap-40 xl:mt-40">
       <OurProcessSection />
       <ProjectsSection />
       <ServicesSection />
