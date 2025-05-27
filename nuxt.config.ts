@@ -137,4 +137,8 @@ export default defineNuxtConfig({
       },
     },
   },
+
+  seo: {
+    enabled: false,
+  },
 })
