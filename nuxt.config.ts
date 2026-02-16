@@ -132,7 +132,11 @@ export default defineNuxtConfig({
     },
   },
 
-  seo: {
-    enabled: false,
+  robots: {
+    allow: ['/'],
+  },
+
+  sitemap: {
+    strictNuxtContentPaths: true,
   },
 })
