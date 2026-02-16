@@ -1,4 +1,3 @@
-/* eslint-disable style/max-len */
 import Aura from '@primeuix/themes/aura'
 import tailwindcss from '@tailwindcss/vite'
 
@@ -39,6 +38,7 @@ export default defineNuxtConfig({
         },
         {
           name: 'keywords',
+          // eslint-disable-next-line style/max-len
           content: 'elektryk tarnów, instalacje elektryczne, fotowoltaika, oświetlenie zewnętrzne, pogotowie elektryczne, domy z bali, domy murowane, Tarnów',
         },
         { name: 'author', content: 'Pavolt' },
@@ -88,19 +88,13 @@ export default defineNuxtConfig({
     },
   },
 
-  compatibilityDate: '2024-11-01',
+  compatibilityDate: '2025-07-15',
 
   vite: {
     plugins: [
       tailwindcss(),
     ],
   },
-
-  // TODO UI:
-  // - icon for "Magazyny energi"
-  // - images for new sections
-  // - Posthog
-  // - use nuxt image
 
   eslint: {
     config: {
