@@ -1,16 +1,16 @@
 <template>
   <div>
     <div class="flex flex-col overflow-hidden">
-      <NavBar />
-      <LandingSection />
+      <nav-bar />
+      <landing-section />
     </div>
     <div class="flex flex-col gap-40 xl:mt-40">
-      <OurProcessSection />
-      <ProjectsSection />
-      <ServicesSection />
-      <TestimonialsSection />
-      <FaqSection />
-      <Footer />
+      <our-process-section />
+      <projects-section />
+      <services-section />
+      <testimonials-section />
+      <faq-section />
+      <footer />
     </div>
   </div>
 </template>

@@ -2,7 +2,7 @@
   <footer class="flex-col gap-8 lg:flex-row mx-auto container pt-12 pb-10 px-6 flex justify-between border-slate-100 border-t">
     <div class="flex flex-col justify-between gap-6">
       <div class="flex flex-col gap-4">
-        <NuxtImg
+        <nuxt-img
           src="/assets/logo.svg"
           width="108"
           height="32"
@@ -20,7 +20,7 @@
           Follow us:
         </p>
         <a href="https://www.instagram.com/_pavolt_/" target="_blank" rel="noopener noreferrer">
-          <Icon name="lucide:instagram" class="text-slate-800" size="24" />
+          <icon name="lucide:instagram" class="text-slate-800" size="24" />
         </a>
       </div>
     </div>
@@ -33,27 +33,27 @@
         <nav>
           <ul class="flex flex-col gap-2 text-slate-500 text-sm">
             <li>
-              <NuxtLink :to="{ path: '/', hash: '#projects' }">
+              <nuxt-link :to="{ path: '/', hash: '#projects' }">
                 Wykonane realizacje
-              </NuxtLink>
+              </nuxt-link>
             </li>
 
             <li>
-              <NuxtLink :to="{ path: '/', hash: '#services' }">
+              <nuxt-link :to="{ path: '/', hash: '#services' }">
                 Oferta
-              </NuxtLink>
+              </nuxt-link>
             </li>
 
             <li>
-              <NuxtLink :to="{ path: '/', hash: '#testimonials' }">
+              <nuxt-link :to="{ path: '/', hash: '#testimonials' }">
                 Opinie klientów
-              </NuxtLink>
+              </nuxt-link>
             </li>
 
             <li>
-              <NuxtLink :to="{ path: '/', hash: '#faq' }">
+              <nuxt-link :to="{ path: '/', hash: '#faq' }">
                 FAQ
-              </NuxtLink>
+              </nuxt-link>
             </li>
           </ul>
         </nav>

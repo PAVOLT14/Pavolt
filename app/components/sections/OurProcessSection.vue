@@ -13,7 +13,7 @@ import { PROCESS } from '~/data'
         :key="index"
         class="flex flex-col gap-3 items-center text-center max-w-[420px] mx-auto lg:text-left lg:items-start lg:mx-none"
       >
-        <Icon :name="icon" class="text-primary" size="40" />
+        <icon :name="icon" class="text-primary" size="40" />
         <div class="flex flex-col gap-1">
           <p class="text-lg lg:text-xl text-slate-800 font-semibold">
             {{ title }}

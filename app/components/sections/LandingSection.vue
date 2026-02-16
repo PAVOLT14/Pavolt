@@ -12,16 +12,16 @@
         Nowoczesne usługi elektryczne, profesjonalne podejście i gwarancja spokoju w każdym zakamarku Twojej przestrzeni.
       </h2>
 
-      <NuxtLink
+      <nuxt-link
         class="mt-8 px-5 py-3 bg-primary text-white font-medium rounded-md self-center md:self-start"
         :to="{ path: '/', hash: '#services' }"
       >
         Sprawdź ofertę
-      </NuxtLink>
+      </nuxt-link>
     </div>
 
     <div class="xl:hidden md:size-[520px] lg:size-[400px] mx-auto">
-      <NuxtImg
+      <nuxt-img
         src="/assets/images/illustration.svg"
         alt="Landig Image"
         loading="eager"
@@ -35,7 +35,7 @@
         class="z-5 from-3% absolute h-full w-full bg-gradient-to-t from-white"
       />
       <div class="h-[280px] w-[280px] overflow-hidden rounded-md xl:mt-16 2xl:h-[320px] 2xl:w-[320px]">
-        <NuxtImg
+        <nuxt-img
           class="h-full w-full object-cover"
           width="280"
           height="280"
@@ -46,7 +46,7 @@
         />
       </div>
       <div class="h-[280px] w-[280px] overflow-hidden rounded-md 2xl:h-[320px] 2xl:w-[320px]">
-        <NuxtImg
+        <nuxt-img
           class="h-full w-full object-cover"
           width="280"
           height="280"
@@ -57,7 +57,7 @@
         />
       </div>
       <div class="h-[280px] w-[280px] overflow-hidden rounded-md 2xl:h-[320px] 2xl:w-[320px]">
-        <NuxtImg
+        <nuxt-img
           class="h-full w-full object-cover"
           width="280"
           height="280"
@@ -70,7 +70,7 @@
       <div
         class="h-[280px] w-[280px] overflow-hidden rounded-md xl:-translate-y-16 2xl:h-[320px] 2xl:w-[320px]"
       >
-        <NuxtImg
+        <nuxt-img
           class="h-full w-full object-cover"
           width="280"
           height="280"

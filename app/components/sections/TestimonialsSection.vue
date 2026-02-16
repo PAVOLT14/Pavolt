@@ -8,7 +8,7 @@ import { TESTIMONIALS } from '~/data'
       Co mówią o nas klienci
     </h2>
     <div class="grid grid-cols-1 gap-10 2xl:grid-cols-3 md:grid-cols-2">
-      <TestimonialCard
+      <testimonial-card
         v-for="(testimonial, index) in TESTIMONIALS"
         :key="index"
         :color="testimonial.color"

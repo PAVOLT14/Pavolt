@@ -10,7 +10,7 @@ const toggleMenu = () => {
 
 <template>
   <header class="container mx-auto flex justify-between items-center py-6 px-6" @keydown.escape="isMenuOpen = false">
-    <NuxtImg
+    <nuxt-img
       src="/assets/logo.svg"
       width="108"
       height="32"
@@ -27,7 +27,7 @@ const toggleMenu = () => {
       aria-label="Toggle navigation menu"
       @click="toggleMenu"
     >
-      <Icon
+      <icon
         :name="isMenuOpen ? 'lucide:x' : 'lucide:menu'"
         class="text-slate-800"
         size="24"
@@ -38,24 +38,24 @@ const toggleMenu = () => {
     <nav class="hidden lg:block" role="navigation">
       <ul class="flex gap-x-6 items-center text-slate-700">
         <li>
-          <NuxtLink :to="{ path: '/', hash: '#projects' }">
+          <nuxt-link :to="{ path: '/', hash: '#projects' }">
             Wykonane realizacje
-          </NuxtLink>
+          </nuxt-link>
         </li>
         <li>
-          <NuxtLink :to="{ path: '/', hash: '#services' }">
+          <nuxt-link :to="{ path: '/', hash: '#services' }">
             Oferta
-          </NuxtLink>
+          </nuxt-link>
         </li>
         <li>
-          <NuxtLink :to="{ path: '/', hash: '#testimonials' }">
+          <nuxt-link :to="{ path: '/', hash: '#testimonials' }">
             Opinie klientów
-          </NuxtLink>
+          </nuxt-link>
         </li>
         <li>
-          <NuxtLink :to="{ path: '/', hash: '#faq' }">
+          <nuxt-link :to="{ path: '/', hash: '#faq' }">
             FAQ
-          </NuxtLink>
+          </nuxt-link>
         </li>
         <li class="font-bold text-primary">
           +48 883 966 049
@@ -71,7 +71,7 @@ const toggleMenu = () => {
       ]"
     >
       <div class="container mx-auto pt-6 px-4 flex flex-col gap-8">
-        <NuxtImg
+        <nuxt-img
           src="/assets/logo.svg"
           width="108"
           height="32"
@@ -81,36 +81,36 @@ const toggleMenu = () => {
         <nav role="navigation">
           <ul class="flex flex-col gap-y-6 text-slate-700 items-center">
             <li>
-              <NuxtLink
+              <nuxt-link
                 :to="{ path: '/', hash: '#projects' }"
                 @click="toggleMenu"
               >
                 Wykonane realizacje
-              </NuxtLink>
+              </nuxt-link>
             </li>
             <li>
-              <NuxtLink
+              <nuxt-link
                 :to="{ path: '/', hash: '#services' }"
                 @click="toggleMenu"
               >
                 Oferta
-              </NuxtLink>
+              </nuxt-link>
             </li>
             <li>
-              <NuxtLink
+              <nuxt-link
                 :to="{ path: '/', hash: '#testimonials' }"
                 @click="toggleMenu"
               >
                 Opinie klientów
-              </NuxtLink>
+              </nuxt-link>
             </li>
             <li>
-              <NuxtLink
+              <nuxt-link
                 :to="{ path: '/', hash: '#faq' }"
                 @click="toggleMenu"
               >
                 FAQ
-              </NuxtLink>
+              </nuxt-link>
             </li>
             <li class="font-bold text-primary">
               +48 883 966 049

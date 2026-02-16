@@ -8,7 +8,7 @@ import { SERVICES } from '~/data'
       Nasze usługi elektryczne
     </h2>
     <div class="grid grid-cols-1 gap-y-10 lg:grid-cols-3 md:grid-cols-2 xl:gap-18 md:gap-x-10">
-      <ServiceCard
+      <service-card
         v-for="(service, index) in SERVICES"
         :key="index"
         :icon="service.icon"
