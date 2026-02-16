@@ -10,7 +10,9 @@ defineProps<Props>()
 
 <template>
   <div class="flex flex-col items-center gap-3 text-center md:items-start md:text-left max-w-[420px] lg:max-w-none mx-auto">
-    <icon :name="icon" class="text-primary" size="40" />
+    <client-only>
+      <icon :name="icon" class="text-primary" size="40" />
+    </client-only>
     <div class="flex flex-col">
       <p class="text-lg lg:text-xl text-slate-800 font-semibold">
         {{ title }}
