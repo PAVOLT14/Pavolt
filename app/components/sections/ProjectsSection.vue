@@ -59,7 +59,7 @@ const toggleImages = () => {
               width="500"
               height="500"
               :src="data"
-              alt="Zdjęcie wykonanej instalacji"
+              :alt="`Zdjęcie wykonanej instalacji – ${selectedProject?.name ?? 'projekt'}`"
               format="webp"
               loading="lazy"
               preview
@@ -85,7 +85,7 @@ const toggleImages = () => {
               v-for="(image, index) in displayedImages"
               :key="index"
               :src="image"
-              alt="Project image"
+              :alt="`Zdjęcie wykonanej instalacji – ${selectedProject?.name ?? 'projekt'}, fotografia ${index + 1}`"
               preview
               image-class="w-full h-[300px] object-cover rounded-md"
               image-style="aspect-ratio: 16 / 9;"

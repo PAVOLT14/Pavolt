@@ -10,6 +10,11 @@ const toggleMenu = () => {
 
 <template>
   <header class="container mx-auto flex justify-between items-center py-6 px-6" @keydown.escape="isMenuOpen = false">
+    <!-- eslint-disable-next-line style/max-len -->
+    <a href="#main-content" class="absolute left-6 top-6 z-100 -m-px h-px w-px overflow-hidden whitespace-nowrap border-0 p-0 opacity-0 focus:static focus:m-0 focus:h-auto focus:w-auto focus:overflow-visible focus:rounded focus:bg-primary focus:px-4 focus:py-2 focus:text-white focus:opacity-100 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2">
+      Przejdź do treści
+    </a>
+
     <nuxt-img
       src="/assets/logo.svg"
       width="108"
@@ -31,6 +36,7 @@ const toggleMenu = () => {
         :name="isMenuOpen ? 'lucide:x' : 'lucide:menu'"
         class="text-slate-800"
         size="24"
+        aria-hidden="true"
       />
     </button>
 
@@ -65,6 +71,10 @@ const toggleMenu = () => {
 
     <!-- Mobile Navigation -->
     <div
+      id="mobile-menu"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Menu nawigacji"
       class="fixed top-0 left-0 h-full w-full bg-white transform transition-transform duration-500 ease-in-out z-40 lg:hidden"
       :class="[
         isMenuOpen ? 'translate-x-0' : 'translate-x-full',

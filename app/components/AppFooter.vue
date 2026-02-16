@@ -19,8 +19,13 @@
         <p class="text-primary font-handwriting text-xl">
           Follow us:
         </p>
-        <a href="https://www.instagram.com/_pavolt_/" target="_blank" rel="noopener noreferrer">
-          <icon name="lucide:instagram" class="text-slate-800" size="24" />
+        <a
+          href="https://www.instagram.com/_pavolt_/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Pavolt na Instagramie (otwiera się w nowej karcie)"
+        >
+          <icon name="lucide:instagram" class="text-slate-800" size="24" aria-hidden="true" />
         </a>
       </div>
     </div>
@@ -30,7 +35,7 @@
         <p class="text-slate-800 text-sm font-medium">
           Nawigacja
         </p>
-        <nav>
+        <nav aria-label="Linki w stopce">
           <ul class="flex flex-col gap-2 text-slate-500 text-sm">
             <li>
               <nuxt-link :to="{ path: '/', hash: '#projects' }">

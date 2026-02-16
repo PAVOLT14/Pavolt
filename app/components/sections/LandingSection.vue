@@ -1,7 +1,10 @@
 <template>
-  <main class="container mx-auto px-6 lg:flex-1 flex mt-10 lg:mt-20 relative gap-10 flex-col lg:flex-row mb-40">
+  <section
+    aria-labelledby="landing-heading"
+    class="container mx-auto px-6 lg:flex-1 flex mt-10 lg:mt-20 relative gap-10 flex-col lg:flex-row mb-40"
+  >
     <div class="lg:max-w-3xl flex-1 flex flex-col">
-      <h1 class="text-slate-800 text-5xl lg:text-7xl font-bold lg:leading-20 text-center md:text-left">
+      <h1 id="landing-heading" class="text-slate-800 text-5xl lg:text-7xl font-bold lg:leading-20 text-center md:text-left">
         Bezpieczne instalacje elektryczne dla Twojego domu
       </h1>
 
@@ -20,7 +23,7 @@
     <div class="xl:hidden md:size-[520px] lg:size-[400px] mx-auto">
       <nuxt-img
         src="/assets/images/illustration.svg"
-        alt="Landig Image"
+        alt="Ilustracja: bezpieczne instalacje elektryczne w domu"
         loading="eager"
         sizes="500px lg:400px"
       />
@@ -74,5 +77,5 @@
         />
       </div>
     </div>
-  </main>
+  </section>
 </template>

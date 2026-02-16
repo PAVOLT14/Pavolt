@@ -14,9 +14,9 @@ import { FAQ } from '~/data'
         :key="question"
         class="flex flex-col gap-1"
       >
-        <p class="text-lg lg:text-xl text-slate-800 font-semibold">
+        <h3 class="text-lg lg:text-xl text-slate-800 font-semibold">
           {{ question }}
-        </p>
+        </h3>
         <p class="text-slate-500 font-light text-sm lg:text-base">
           {{ answer }}
         </p>
