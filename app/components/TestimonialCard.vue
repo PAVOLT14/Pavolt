@@ -8,7 +8,7 @@ interface Props {
 
 const props = defineProps<Props>()
 
-const firstLetter = computed<string>(() => props.name[0].toUpperCase() || '')
+const firstLetter = computed<string>(() => props.name[0]?.toUpperCase() ?? '')
 </script>
 
 <template>
@@ -26,6 +26,7 @@ const firstLetter = computed<string>(() => props.name[0].toUpperCase() || '')
         <p class="text-slate-800 font-bold">
           {{ name }}
         </p>
+
         <p class="text-slate-500 text-sm">
           {{ role }}
         </p>

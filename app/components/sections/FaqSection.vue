@@ -7,10 +7,11 @@ import { FAQ } from '~/data'
     <h2 class="text-center font-bold text-slate-800 text-3xl lg:text-4xl">
       Często zadawane pytania
     </h2>
+
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-20 gap-y-8 xl:gap-y-10">
       <div
-        v-for="({ question, answer }, index) in FAQ"
-        :key="index"
+        v-for="{ question, answer } in FAQ"
+        :key="question"
         class="flex flex-col gap-1"
       >
         <p class="text-lg lg:text-xl text-slate-800 font-semibold">

@@ -1,13 +1,10 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
   <main class="container mx-auto px-6 lg:flex-1 flex mt-10 lg:mt-20 relative gap-10 flex-col lg:flex-row mb-40">
     <div class="lg:max-w-3xl flex-1 flex flex-col">
       <h1 class="text-slate-800 text-5xl lg:text-7xl font-bold lg:leading-20 text-center md:text-left">
         Bezpieczne instalacje elektryczne dla Twojego domu
       </h1>
+
       <h2 class="text-slate-500 text-lg lg:text-xl mt-6 text-center md:text-left">
         Nowoczesne usługi elektryczne, profesjonalne podejście i gwarancja spokoju w każdym zakamarku Twojej przestrzeni.
       </h2>
@@ -30,10 +27,8 @@
     </div>
 
     <!-- eslint-disable-next-line style/max-len -->
-    <div class="xl:absolute right-[-340px] top-[-30px] hidden w-[580px] flex-wrap gap-5 bg-white xl:flex xl:right-[-160px] xl:top-[-82px] 2xl:right-[-0px] 2xl:w-[660px]">
-      <div
-        class="z-5 from-3% absolute h-full w-full bg-gradient-to-t from-white"
-      />
+    <div class="xl:absolute right-[-340px] top-[-30px] hidden w-[580px] flex-wrap gap-5 bg-white xl:flex xl:right-[-160px] xl:top-[-82px] 2xl:right-0 2xl:w-[660px]">
+      <div class="z-5 from-3% absolute h-full w-full bg-linear-to-t from-white" />
       <div class="h-[280px] w-[280px] overflow-hidden rounded-md xl:mt-16 2xl:h-[320px] 2xl:w-[320px]">
         <nuxt-img
           class="h-full w-full object-cover"
@@ -67,9 +62,7 @@
           loading="lazy"
         />
       </div>
-      <div
-        class="h-[280px] w-[280px] overflow-hidden rounded-md xl:-translate-y-16 2xl:h-[320px] 2xl:w-[320px]"
-      >
+      <div class="h-[280px] w-[280px] overflow-hidden rounded-md xl:-translate-y-16 2xl:h-[320px] 2xl:w-[320px]">
         <nuxt-img
           class="h-full w-full object-cover"
           width="280"

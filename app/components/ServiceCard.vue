@@ -13,10 +13,12 @@ defineProps<Props>()
     <client-only>
       <icon :name="icon" class="text-primary" size="40" />
     </client-only>
+
     <div class="flex flex-col">
       <p class="text-lg lg:text-xl text-slate-800 font-semibold">
         {{ title }}
       </p>
+
       <p class="text-slate-500 font-light text-sm lg:text-base">
         {{ description }}
       </p>
